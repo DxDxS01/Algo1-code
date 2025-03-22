@@ -4,7 +4,7 @@
 
 void Queue::doubleFullQueueArray() {
 	int s = m0 * 2;
-	printf("A Queue-t %d -re növeltük\n", s);
+	printf("A Queue-t %d-re növeltük\n", s);
 	int* Y = new int[m0 * 2];
 
 	for (int i = 0; i < m0; ++i) {
@@ -55,7 +55,7 @@ int Queue::rem() {
 		return x;
 	}
 	else {
-		throw std::exception("Queue-ba nincs elég elem!");
+		throw std::exception("Queue-ban nincs elég elem!");
 	}
 }
 
@@ -64,7 +64,7 @@ int Queue::first() {
 		return Z[k];
 	}
 	else {
-		throw std::exception("Queue-ba nincs elég elem!");
+		throw std::exception("Queue-ban nincs elég elem!");
 	}
 }
 
