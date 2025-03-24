@@ -11,3 +11,4 @@ Eddig megvalósított anyagok:
 - Data Structures:
 	- Stack
 	- Queue
+   	- H1L
